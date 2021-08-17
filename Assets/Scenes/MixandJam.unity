@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1481.7754, g: 1835.8867, b: 2430.4492, a: 1}
+  m_IndirectSpecularColor: {r: 1478.846, g: 1831.9392, b: 2425.4006, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9008,7 +9008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &212553429
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -14329,6 +14329,10 @@ PrefabInstance:
     - target: {fileID: 5358883105248097538, guid: 92e859c764174cf4385acf2f713357cc, type: 3}
       propertyPath: m_Name
       value: TR_Pillar_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358883105248097538, guid: 92e859c764174cf4385acf2f713357cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8936771215430862609, guid: 92e859c764174cf4385acf2f713357cc, type: 3}
       propertyPath: m_RootOrder
@@ -19968,7 +19972,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &279271506
 Transform:
   m_ObjectHideFlags: 0
@@ -23009,8 +23013,7 @@ VFXRenderer:
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -23156,7 +23159,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &406441789
 Transform:
   m_ObjectHideFlags: 0
@@ -24759,6 +24762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TR_Pillar_01
       objectReference: {fileID: 0}
+    - target: {fileID: 5358883105248097538, guid: 92e859c764174cf4385acf2f713357cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8936771215430862609, guid: 92e859c764174cf4385acf2f713357cc, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -24867,7 +24874,7 @@ MonoBehaviour:
     distanceFadeStart: 10000
     distanceFadeEnd: 10000
     textureIndex: 0
-    textureOffset: {x: -0, y: -0, z: 0}
+    textureOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &472085199
 GameObject:
   m_ObjectHideFlags: 0
@@ -25150,7 +25157,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473079553}
-  m_LocalRotation: {x: 0.17121494, y: 0.00000003798473, z: -0.000000006601026, w: 0.9852337}
+  m_LocalRotation: {x: 0.17121494, y: -0.000000037755814, z: 0.000000006561245, w: 0.9852337}
   m_LocalPosition: {x: -2.18, y: 8.57, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -27387,7 +27394,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &594250630
 Transform:
   m_ObjectHideFlags: 0
@@ -31085,8 +31092,7 @@ VFXRenderer:
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -32082,8 +32088,7 @@ VFXRenderer:
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33472,8 +33477,7 @@ VFXRenderer:
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34902,7 +34906,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &923137973
 Transform:
   m_ObjectHideFlags: 0
@@ -35215,9 +35219,7 @@ VFXRenderer:
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
-  - {fileID: 0}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39714,7 +39716,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1159510705
 Transform:
   m_ObjectHideFlags: 0
@@ -43664,6 +43666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TR_Pillar_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5358883105248097538, guid: 92e859c764174cf4385acf2f713357cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8936771215430862609, guid: 92e859c764174cf4385acf2f713357cc, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -43882,7 +43888,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431891821}
-  m_LocalRotation: {x: 0.07401652, y: 0.0031648148, z: -0.0008760268, w: 0.99725163}
+  m_LocalRotation: {x: 0.07401652, y: 0.0031647778, z: -0.0008760166, w: 0.99725163}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -44776,7 +44782,7 @@ MonoBehaviour:
     distanceFadeStart: 50
     distanceFadeEnd: 60
     textureIndex: 0
-    textureOffset: {x: -0, y: -0, z: 0}
+    textureOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &1492794202
 GameObject:
   m_ObjectHideFlags: 0
@@ -47008,8 +47014,7 @@ VFXRenderer:
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -48308,6 +48313,10 @@ PrefabInstance:
     - target: {fileID: 5358883105248097538, guid: 92e859c764174cf4385acf2f713357cc, type: 3}
       propertyPath: m_Name
       value: TR_Pillar_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5358883105248097538, guid: 92e859c764174cf4385acf2f713357cc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8936771215430862609, guid: 92e859c764174cf4385acf2f713357cc, type: 3}
       propertyPath: m_RootOrder
@@ -51690,7 +51699,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 2293
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 9.485e-42, y: -0.000000006365884, z: 7.34e-43, w: -0.0000000063604233}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 2.87e-42, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0.33
@@ -54633,8 +54642,7 @@ VFXRenderer:
   m_RayTraceProcedural: 0
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -56000,7 +56008,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1924871439
 Transform:
   m_ObjectHideFlags: 0
@@ -70823,7 +70831,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2582144458996412158
 Transform:
   m_ObjectHideFlags: 0
@@ -74189,6 +74197,10 @@ PrefabInstance:
       propertyPath: enemyManager
       value: 
       objectReference: {fileID: 1694984284}
+    - target: {fileID: 1330535592, guid: 635429b722a72604b9d8d113df87a56b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 178022441315365513, guid: 635429b722a72604b9d8d113df87a56b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 2.8158464
@@ -74716,6 +74728,10 @@ PrefabInstance:
     - target: {fileID: 5950276664379642772, guid: 635429b722a72604b9d8d113df87a56b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -174.87521
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084253688199418473, guid: 635429b722a72604b9d8d113df87a56b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6084253688199418473, guid: 635429b722a72604b9d8d113df87a56b, type: 3}
       propertyPath: m_Parameters.widthMultiplier
@@ -76519,7 +76535,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7258386062516984221
 Transform:
   m_ObjectHideFlags: 0
